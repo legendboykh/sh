@@ -6,6 +6,7 @@ import { useTheme } from "./hooks/ThemeHook";
 function AppContent() {
   const { theme, toggleTheme } = useTheme();
 
+  
   return (
     <div className="app">
       <div className="card">
